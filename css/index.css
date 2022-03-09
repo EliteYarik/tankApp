@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 100%;
+}
+
+.header{
+    width: 1500px;
+    height: 87px;
+    margin: auto;
+    padding-left: 200px;
+    padding-right: 112px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    width: 203px;
+    height: 35px;
+}
+
+.navig{
+    display: flex;
+
+}
+
+.navig li{
+    list-style: none;
+    margin-right: 50px;
+    color: rgb(121, 129, 141);
+    font-family: ubunturegular;
+}
+
+.navig li:last-child{
+    margin-right: 0;
+}
+
+.hamb, .hiddenNavig{
+    display: none;
+}
+
+/* -------------------------secondcont----------------------------------- */
+
+.trackcont{
+    width: 1500px;
+    height: 842px;
+    background-image: url(../images/blueback.png);
+    background-size: cover;
+    margin: auto;
+    padding-left: 160px;
+    padding-right: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.tracktxtcont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.tracktxtcont span:nth-child(1){
+    font-family: ubuntubold;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+.tracktxtcont span:nth-child(2){
+    font-family: ubuntubold;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 48px;
+}
+
+.tracktxtcont span:nth-child(3){
+    color: white;
+    font-family: ubuntulightitalic;
+    font-size: 20px;
+    margin-bottom: 67px;
+}
+
+.forfree{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 34px;
+}
+
+.singupfor{
+    color: white;
+    margin-right: 5px;
+}
+
+.freebutton{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(255, 206, 84);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phonecont img{
+    position: relative;
+    top: 173px;
+    left: 100px;
+}
+
+.enteremail{
+    display: flex;
+    align-items: center;
+}
+
+.singupbutton{
+    width: 113px;
+    height: 55px;
+    background-color: rgb(119, 195, 68);
+    border-radius: 5px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.enteremail input{
+    width: 425px;
+    height: 55px;
+    margin-right: 40px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    padding-left: 29px;
+}
+
+.enteremail input::placeholder{
+    color: rgb(199, 202, 207);
+}
+
+/* -----------------------thirdcont-------------------------------------------- */
+
+.logoscont{
+    width: 1500px;
+    height: 160px;
+    background-color: rgb(248, 248, 248);
+    margin: auto;
+    padding-left: 150px;
+    padding-right: 160px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ---------------------------------------whycont--------------------------------------- */
+.whybigcont{
+    width: 1500px;
+    height: 1016px;
+    padding-left: 150px;
+    padding-top: 120px;
+    margin: auto;
+
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.whytxt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.whytxt span{
+    font-family: ubunturegular;
+    font-size: 50px;
+    margin-right: 7px;
+    color: rgb(76, 87, 103);
+}
+
+.whytxt span:last-child{
+    margin: 0;
+}
+
+.whylittlecont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whyarguments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.argumentcont{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 60px;
+}
+
+.argtitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: ubunturegular;
+    color: rgb(76, 87, 103);
+    margin-bottom: 20px;
+}
+
+.argtitle img{
+    margin-right: 25px;
+}
+
+.argumentlittletxt{
+    width: 480px;
+    height: 60px;
+}
+
+.argumentlittletxt{
+    color: rgb(148, 153, 162);
+    font-family: ubunturegular;
+}
+
+/* --------------------------------diffrent-------------------------------- */
+.diffrent{
+    width: 1500px;
+    height: 735px;
+    background-color: rgb(238, 238, 239);
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diffrent .slider{
+    width: 1500px;
+    height: 735px;
+    overflow: hidden;
+    background-image: url(../images/ships.png);
+    background-size: cover;
+    background-position: center center;
+
+}
+.slideContent span{
+    font-family: ubunturegular;
+}
+
+.slideContent div span{
+    font-family: ubunturegular;
+    font-size: 20px;
+}
+
+.slideContent div{
+    margin-bottom: 50px;
+}
+
+.diffrent .slider .clidesCont{
+    width: 999999999px;
+    height: 690px;
+    display: flex;
+    position: relative;
+    transition: left ease 1s;
+}
+
+.slider .slide{
+    width: 1500px;
+    height: 735px;
+    padding: 150px 635px 0 130px;
+}
+
+.slider .slide span:nth-child(1){
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 170px;
+    font-family: ubuntumedium;
+    font-size: 30px;
+    color: rgb(65, 76, 93);
+}
+
+.slider .buttonsCont{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+    cursor: pointer;
+}
+
+.slider .button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+}
+/* ---------------------------------------------------savetime------------------------- */
+
+.savetime{
+    width: 1500px;
+    margin: auto;
+    height: 480px;
+}
+
+.savecont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.savecont span:nth-child(1){
+    font-family: ubunturegular;
+    color: rgb(90, 98, 100);
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.savecont span:nth-child(2){
+    font-family: ubuntulightitalic;
+    color: rgb(90, 98, 100);
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.saveform #email{
+    width: 630px;
+    height: 75px;
+    font-size: 25px;
+    padding-left: 80px;
+    border: 1px solid rgb(209, 209, 209);
+    margin-right: 35px;
+}
+
+.saveform #email::placeholder{
+    font-size: 25px;
+    background-image: url(../images/convert.png);
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    background-position-y: center;
+    color: rgb(215, 217, 220);
+}
+
+.saveform{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    width: 190px;
+    height: 70px;
+    border: none;
+    background-color: rgb(119, 195, 68);
+    color: white;
+    font-family: ubunturegular;
+    font-size: 25px;
+    border-radius: 3.5px;
+}
+
+/* ------------------------footer-------------------------- */
+
+.footer{
+    height: 140px;
+    width: 1500px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footernavig ul{
+    display: flex;
+    list-style: none;
+}
+
+.footernavig ul li{
+    margin-right: 40px;
+}
+
+.footernavig ul li:last-child{
+    border-right: solid 1px black;
+    padding-right: 20px;
+}
+
+.footernavig{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerimages{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* -----------------------fonts------------------- */
+@font-face {
+    font-family: ubunturegular;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: ubuntubold;
+    src: url(../fonts/ubuntu-bold.ttf);
+}
+
+@font-face {
+    font-family: ubuntulightitalic;
+    src: url(../fonts/Ubuntu-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: ubuntumedium;
+    src: url(../fonts/ubuntu-medium.ttf);
+}

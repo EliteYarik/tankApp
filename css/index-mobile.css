@@ -1,0 +1,269 @@
+@media(max-device-width: 720px){
+    
+    .wrap{
+        width: 100vw;
+    }
+
+    .hiddenCont{
+        z-index: 2;
+    }
+
+    .trackcont{
+        z-index: 1;
+    }
+
+    .header{
+        padding: 0;
+        width: 100%;
+        height: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+        align-items: flex-start;
+        padding-top: 15px;
+    }
+    
+    .navig{
+        display: none;
+    }
+
+    .header .logo{
+        width: 150px;
+        height: 25px;
+    }
+
+    .hamb, .hiddenNavig{
+        display: block;
+    }
+
+    .hiddenCont{
+
+        display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+    }
+
+    .hiddenCont .hamb{
+        width: 60px;
+        height: 50px;
+        background-image: url(../images/hamp.png);
+        background-size: cover;
+        margin-bottom: 5px;
+    }
+
+    .hiddenNavig{
+        list-style: none;
+        background-color: rgb(135, 193, 246);
+    }
+
+    .hiddenNavig li{
+        border-bottom: solid 1px grey;
+        text-align: right;
+        font-size: 20px;
+    }
+    /* ----------------------------2cont----------------------------------------- */
+    .trackcont{
+        width: 100%;
+        background-position: center center;
+        padding: 10px;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .phonecont{
+        display: none;
+    }
+
+    .tracktxtcont{
+        margin: auto;
+    }
+
+    .tracktxtcont span:nth-child(1){
+        font-size: 30px;
+        margin-bottom: 20px;
+        width: 90vw;
+        text-align: center;
+    }
+    
+    .tracktxtcont span:nth-child(2){
+        font-size: 30px;
+        margin-bottom: 20px;
+        width: 90vw;
+        text-align: center;
+    }
+    
+    .tracktxtcont span:nth-child(3){
+        font-size: 23px;
+        margin-bottom: 20px;
+        width: 90vw;
+        text-align: center;
+    }
+
+    .forfree{
+        width: 90vw;
+        justify-content: center;
+    }
+
+    .enteremail{
+        width: 90vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .enteremail input{
+        width: 80vw;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    /* -----------------------------logos--------------------- */
+    .logoscont{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logoscont img{
+        margin-bottom: 25px;
+    }
+
+    .notebook{
+        display: none;
+    }
+
+    .whybigcont{
+        width: 100%;
+        padding: 0;
+    }
+
+    .argumentlittletxt{
+        width: 80%;
+        margin: auto;
+    }
+
+    .argtitle{
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    
+    .whytxt{
+        margin-bottom: 30px;
+    }
+
+    .whytxt span{
+        font-size: 30px;
+    }
+
+    .argumentlittletxt{
+        margin-bottom: 35px;
+    }
+
+    /* --------------------------------------------------------- */
+    .saveform #email{
+        width: 80%;
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+
+    .savetime{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .savecont{
+        padding: 0;
+    }
+
+    .saveform{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .saveform #email::placeholder{
+        padding: 0;
+        font-size: 20px;
+        background-image: none;
+        text-align: center;
+    }
+    
+    .footer{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footernavig{
+        flex-direction: column;
+    }
+
+    .footernavig ul{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footernavig ul li{
+        margin: 0;
+    }
+
+    .footernavig ul li:last-child{
+        border: none;
+        padding: 0;
+    }
+
+    .footerlogo{
+        margin-bottom: 20px;
+    }
+
+    .footerimages{
+        margin-bottom: 15px;
+    }
+
+    .diffrent{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .diffrent .slider{
+        width: 100%;
+        height: auto;
+    }
+
+    .slider .slide{
+        width: 100vw;
+        padding: 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .slider .slide span:nth-child(1){
+        margin-bottom: 20px;
+    }
+
+    .slideContent div{
+        text-align: center;
+    }
+
+    .diffrent .slider .clidesCont{
+        height: auto;
+    }
+
+    .slider .slide{
+        height: auto;
+    }
+
+    .slider .buttonsCont{
+        bottom: 0;
+        margin-bottom: 20px;
+    }
+}
